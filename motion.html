@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title> R U I H A N - X I A | 夏 睿 涵</title>
+
+  <!-- Style Sheets -->
+  <link rel="stylesheet" type = "text/css" href="css/style.css">
+  <link rel="icon" href="https://i.imgur.com/7hOfurD.png">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/jquery.hoverplay.js"></script>
+
+
+</head>
+
+<body>
+<br>
+<!-- header -->
+<div class="row" style= "padding-right:1%; padding-left:1%; padding-bottom:none"> 
+  <div class="column" >
+    <h2 style="float:left;"> R U I H A N &nbsp; X I A &nbsp; |&nbsp;  夏 睿 涵</h2>
+    </div>
+
+  <div class="column">
+    <center>
+      <img src = "LOGO/front.png" style= "float: center; width:10%; border="0"; alt="Null">
+    </center>
+      </div>
+
+  <div class="column">
+      <div class="dropdown" style="float:right;">
+      <button class="dropbtn"> MENU </button>
+        <div class="dropdown-content" style= "border="0" alt="Null">
+        <a href="motion.html"> Motion </a>
+        <a href="#"> VR/AR </a>
+        <a href="#"> Untitled </a>
+        <a href="#"> Contact Me </a>
+        </div>
+      </div>
+  </div>
+</div>
+
+
+<!-- work display -->
+<!-- 1st row -->
+<div id="main">
+  <div>
+   <img class = "static" src ="Motion/circles.jpg" style="width:50%"></img> 
+   <img class = "active" src ="Motion/circles.gif" style="width:50%"></img>
+  </div>
+
+  <div>
+      <video width="100%" height=auto controls data-play="hover" muted="muted">
+      <source src="Motion/eye_animation.mp4" type="video/mp4">
+      </video>
+  </div>
+</div>
+
+<!-- 2nd row -->
+
+<div id="main">
+  <div class="project-container">
+    <video class="content" controls loop onmouseover="this.play()" onmouseout="this.pause();" width="100%" >
+          <source src="Motion/blueSuedeShoes.mp4">
+    </video>
+  </div>
+
+  <div class="project-container">
+    <video class="content" controls loop onmouseover="this.play()" onmouseout="this.pause();" width="100%" >
+          <source src="Motion/rhythm.mp4">
+    </video>
+  </div>
+
+
+</div>
+
+
+</body>
