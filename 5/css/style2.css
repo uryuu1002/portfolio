@@ -1,0 +1,210 @@
+@import url("https://fonts.googleapis.com/css?family=Karla");
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+* {
+	box-sizing: border-box;
+	margin:0;
+	background: black;
+}
+
+html, body { 
+	width:100%; 
+	height:100%; 
+}
+
+canvas{
+	display:block;
+	width: 50%;
+	height: 25%;
+	border: 0 px;
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Monoton', cursive;
+    font-color:white;
+    border-style: dotted;
+    border-width: 10px;
+    padding:20px;
+    display:inline-block;
+    position:absolute;
+    background: transparent;
+    margin-top:3%;
+    margin-left:3%;
+    text-align: center;
+}
+
+/* animated gradient code inspired by Julio Codes on Youtube*/
+/* https://www.youtube.com/watch?v=fBRzD6dwJfw */
+
+section{
+    width:100%;
+    height:100vh;
+    color: #fff;
+    background-color: black;
+    background-size: cover;
+    position: relative;
+    background-attachment: fixed;
+}
+
+section .wave{
+    position: absolute;
+    width: 100%;
+    height: 143px;
+    bottom:0;
+    left:0;
+    background: url(wave.png);
+    animation: animate 10s linear infinite;
+}
+
+section.wave: before{
+    content: '';
+    width: 100%;
+    height: 143px;
+    background: url(wave.png);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: animate-reverse 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0 px;
+        }   100%{
+            background-position: 1360px;
+        }
+    }
+
+    @keyframes animate-reverse{
+        0%{
+            background-position: 1360px;
+            }   100%{
+                background-position: 0 px;
+            }
+        }
+
+        img{
+            width:100%;
+            height:100%;
+        }
+
+        .waves{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:100%;
+            height:100%; 
+            z-index: 1;
+            margin-bottom:0;     
+        }
+
+        .hampster{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:auto;
+            max-height: 300%;  
+            margin-top:-15%;
+            margin-left: 30%;
+            margin-right:auto;
+            z-index: 2;
+        }
+
+        .raining{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:auto;
+            max-height: 300%;  
+            margin-top:1%;
+            margin-left: 30%;
+            margin-right:auto;
+            z-index: 2;
+        }
+
+        .jar{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:auto;
+            max-height: 200%; 
+            margin-left: 23%;
+            margin-right:auto;
+            z-index: 2;
+        }
+
+        .ny{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:auto;
+            max-height: 200%; 
+            margin-left: 23%;
+            margin-right:auto;
+            z-index: 2;
+            filter:invert(100%);
+        }
+
+        .gold{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            max-width:30%;
+            margin-top:15%;
+            height:auto; 
+            margin-left: 34.5%;
+            margin-right:auto;
+            z-index: 1;
+            opacity:0.8;
+        }
+
+        .homeless{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            max-width:30%;
+            margin-top:32%;
+            height:auto; 
+            margin-left: 35%;
+            margin-right:auto;
+            z-index: 1;
+            opacity:0.8;
+        }
+
+               .lightening{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            max-width:40%;
+            margin-top:2%;
+            height:auto; 
+            margin-left: 45%;
+            margin-right:auto;
+            z-index: 3;
+
+        }
+
+        .golden{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:100%;
+            height: 100%; 
+            z-index: 1;
+            opacity:0.3;
+        }
+
+        .heavy{
+            display:inline-block;
+            position: absolute;
+            background: transparent;
+            width:100%;
+            height: 100%; 
+            z-index: 1;
+            opacity:0.3;
+            filter:invert(100%);
+        }
