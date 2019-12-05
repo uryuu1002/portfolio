@@ -112,7 +112,7 @@ text-align: left;
   display: none;
   position: absolute;
   right: 0;
-  background-color: #f9f6ed;
+  background-color: #FFFFFF;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -133,7 +133,7 @@ text-align: left;
 }
 
 .dropdown:hover .dropbtn {
-  background-color: #efef0b
+  background-color: #EF3B36
 }
 
 .static {
