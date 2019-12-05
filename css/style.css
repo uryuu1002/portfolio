@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Karla");
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
 * {
   box-sizing: border-box;
 }
@@ -71,16 +73,17 @@ body {
 p{
   text-align: justify;
   font-size:14px;
+  font-family: 'Karla', sans-serif;
 }
 
 h1{
-font-family: 'Karla', sans-serif;
+font-family: 'Righteous', cursive;
 color: black;
 
 }
 
 h2{
-font-family: 'Karla', sans-serif;
+font-family: 'Righteous', cursive;
 color: black;
 font-size: 16px;
 }
