@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Karla");
 @import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro&display=swap');
 
 * {
   box-sizing: border-box;
@@ -73,7 +73,7 @@ body {
 p{
   text-align: justify;
   font-size:14px;
-  font-family: 'Karla', sans-serif;
+ font-family: 'Source Code Pro', monospace;
 }
 
 h1{
@@ -83,13 +83,13 @@ color: black;
 }
 
 h2{
-font-family: 'Righteous', cursive;
+font-family: 'Source Code Pro', monospace;
 color: black;
 font-size: 16px;
 }
 
 h3{
-font-family: 'Karla', sans-serif;
+font-family: 'Source Code Pro', monospace;
 color: black;
 font-size: 36px;
 text-align: left;
@@ -100,7 +100,7 @@ text-align: left;
   background-color: black;
   color: white;
   padding: 10.5px;
-  font-family: 'Karla', sans-serif;
+  font-family: 'Source Code Pro', monospace;
   font-size: 14px;
   border: none;
   cursor: pointer;
@@ -119,6 +119,7 @@ text-align: left;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .dropdown-content a {
@@ -126,6 +127,7 @@ text-align: left;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
+  font-family: 'Source Code Pro', monospace;
 }
 
 
